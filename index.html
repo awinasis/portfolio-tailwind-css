@@ -3,16 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"/>
     <link rel="stylesheet" href="css/final.css" />
     <script>
       if (
@@ -28,93 +20,49 @@
     <title>Portfolio Awinasis</title>
   </head>
   <body class="font-quicksand">
+
     <!-- Header Start -->
-    <header
-      class="absolute bg-transparent top-0 left-0 w-full flex items-center z-10"
-    >
+    <header class="absolute bg-transparent top-0 left-0 w-full flex items-center z-10">
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4 py-6">
-            <a href="#home" class="font-bold text-2xl text-primary hover:opacity-50 block"
-              >Abdullah Winasis</a
-            >
+            <a href="#home" class="font-bold text-2xl text-primary hover:opacity-50 block">Abdullah Winasis</a>
           </div>
           <div class="flex items-center px-4">
-            <button
-              id="hamburger"
-              name="hamburger"
-              type="button"
-              class="block absolute right-4 lg:hidden"
-            >
-              <span
-                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
-              ></span>
-              <span
-                class="hamburger-line transition duration-300 ease-in-out"
-              ></span>
-              <span
-                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
-              ></span>
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
             </button>
 
-            <nav
-              id="nav-menu"
-              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
-            >
+            <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500 py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none">
               <ul class="block lg:flex">
                 <li class="group">
-                  <a
-                    href="#home"
-                    class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out"
-                    >Home</a
-                  >
+                  <a href="#home" class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out">Home</a >
                 </li>
+                
                 <li class="group">
-                  <a
-                    href="#about"
-                    class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out"
-                    >About</a
-                  >
+                  <a href="#about" class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out">About</a>
                 </li>
+
                 <li class="group">
-                  <a
-                    href="#portfolio"
-                    class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out"
-                    >Portfolio</a
-                  >
+                  <a href="#portfolio" class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out">Portfolio</a>
                 </li>
+
                 <li class="group">
-                  <a
-                    href="#contact"
-                    class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out"
-                    >Contact</a
-                  >
+                  <a href="#contact" class="text-base text-dark py-2 lg:px-6 mx-8 lg:mx-4 flex rounded-full group-hover:text-primary dark:text-primary dark:font-semibold dark:hover:text-white lg:group-hover:bg-primary lg:group-hover:text-white lg:group-hover:opacity-[80%] lg:group-hover:transition-all lg:group-hover:duration-200 lg:group-hover:ease-in-out"> Contact</a>
                 </li>
 
                 <li class="mt-3 flex items-center pl-8 lg:mt-0">
                   <div class="flex group">
-                    <img
-                      src="img/sun.svg"
-                      alt="light"
-                      width="26"
-                      class="mr-2 group-hover:-translate-x-[-5px] duration-500 dark:text-white"
-                    />
+                    <img src="img/sun.svg" alt="light" width="22" class="mr-2 group-hover:-translate-x-[-5px] duration-500"/>
                     <input type="checkbox" class="hidden" id="dark-toggle" />
                     <label for="dark-toggle">
-                      <div
-                        class="flex w-[60px] h-[34px] p-1 rounded-full bg-slate-500 items-center cursor-pointer"
-                      >
-                        <div
-                          class="toggle-circle w-[26px] h-[26px] bg-white rounded-full transition duration-300 ease-in-out"
-                        ></div>
+                      <div class="flex w-[60px] h-[34px] p-1 rounded-full bg-slate-500 items-center cursor-pointer">
+                        <div class="toggle-circle w-[26px] h-[26px] bg-white rounded-full transition duration-300 ease-in-out"></div>
                       </div>
                     </label>
-                    <img
-                      src="img/moon.svg"
-                      alt="dark"
-                      width="22"
-                      class="ml-2 group-hover:-translate-x-[5px] duration-500"
-                    />
+                    <img src="img/moon.svg" alt="dark" width="22" class="ml-2 group-hover:-translate-x-[5px] duration-500"/>
                   </div>
                 </li>
               </ul>
@@ -130,89 +78,47 @@
       <div class="container lg:px-20">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="font-bold text-4xl md:text-6xl dark:text-white">
-              Hi, I'm
-              <span
-                class="text-primary underline underline-offset-4 decoration-4 decoration-slate-300 hover:decoration-primary dark:no-underline dark:hover:underline dark:hover:decoration-slate-800 cursor-pointer"
-              >
-                Awinasis!</span
-              >
-              <div class="text-5xl inline-block animate-wave origin-[70%_70%]">
-                👋
-              </div>
+            <h1 class="font-bold text-4xl md:text-6xl dark:text-white"> Hi, I'm
+              <span class="text-primary underline underline-offset-4 decoration-4 decoration-slate-300 hover:decoration-primary dark:no-underline dark:hover:underline dark:hover:decoration-slate-800 cursor-pointer"> Awinasis!</span>
+              <div class="text-5xl inline-block animate-wave origin-[70%_70%]"> 👋</div>
             </h1>
-            <h2 class="mt-2 text-secondary font-semibold md:text-2xl">
-              A fullstack developer from Indonesia.
-            </h2>
-            <p
-              class="mt-8 mb-14 pt-5 italic text-base md:text-xl dark:text-white"
-            >
+            <h2 class="mt-2 text-secondary font-semibold md:text-2xl"> A fullstack developer from Indonesia.</h2>
+            <p class="mt-8 mb-14 pt-5 italic tracking-wider text-base md:text-xl dark:text-white">
               Turning code into a masterpiece it's not easy and fun, but it's
               worth it.
             </p>
-            <button
-              class="py-[0.8rem] px-10 mb-8 text-base font-semibold text-white uppercase tracking-wider bg-primary rounded-full border-2 border-transparent hover:shadow-lg transition duration-200 hover:bg-transparent hover:text-primary hover:border-2 hover:border-primary ease-in-out cursor-pointer group"
-            >
-              Selengkapnya
-              <i
-                class="fas fa-arrow-right group-hover:translate-x-[30px] duration-1000"
-              ></i>
+            <button class="py-[0.8rem] px-10 mb-8 text-base font-semibold text-white uppercase tracking-wider bg-primary rounded-full border-2 border-transparent hover:shadow-lg transition duration-200 hover:bg-transparent hover:text-primary hover:border-2 hover:border-primary ease-in-out cursor-pointer group"> Selengkapnya
+              <i class="fas fa-arrow-right group-hover:translate-x-[30px] duration-1000"></i>
             </button>
           </div>
           <div class="w-full self-end px-4 lg:w-1/2 -order-1 lg:order-1">
             <div class="mb-10 lg:mb-0 lg:right-0">
-              <img
-                src="img/awinasis.jpg"
-                alt="Awinasis"
-                class="w-80 max-w-full mx-auto rounded-full"
-              />
+              <img src="img/awinasis.jpg" alt="Awinasis" class="w-80 max-w-full mx-auto rounded-full"/>
             </div>
           </div>
         </div>
-
+                            
         <aside class="fixed inset-y-0 right-0">
           <div class="flex h-full">
-            <ul
-              class="p-4 m-auto grid gap-4 whitespace-nowrap rounded-tl-xl rounded-bl-xl bg-white dark:bg-dark opacity-80 border-2 dark:border-slate-800"
-            >
-              <li
-                class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]"
-              >
-                <a href="#" class="text-primary"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
+            <ul class="p-4 m-auto grid gap-4 whitespace-nowrap rounded-tl-xl rounded-bl-xl bg-white dark:bg-dark opacity-80 border-2 dark:border-slate-800">
+              <li class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]">
+                <a href="#" class="text-primary"><i class="fa-brands fa-instagram"></i ></a>
               </li>
 
-              <li
-                class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]"
-              >
-                <a href="#" class="text-primary"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
+              <li class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]">
+                <a href="#" class="text-primary"><i class="fa-brands fa-facebook"></i></a>
               </li>
 
-              <li
-                class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]"
-              >
-                <a href="#" class="text-primary"
-                  ><i class="fa-brands fa-x-twitter"></i
-                ></a>
+              <li class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]">
+                <a href="#" class="text-primary"><i class="fa-brands fa-x-twitter"></i></a>
               </li>
 
-              <li
-                class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]"
-              >
-                <a href="#" class="text-primary"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+              <li class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]">
+                <a href="#" class="text-primary"><i class="fa-brands fa-github"></i></a>
               </li>
 
-              <li
-                class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]"
-              >
-                <a href="#" class="text-primary"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+              <li class="list-none text-2xl duration-[0.5s] hover:scale-150 hover:-translate-y-[5px]">
+                <a href="#" class="text-primary"><i class="fa-brands fa-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -227,27 +133,19 @@
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-2 lg:w-1/2">
             <h4 class="font-bold text-primary text-2xl mb-3">About Me</h4>
-            <h2
-              class="text-white dark:text-dark font-bold text-3xl lg:text-4xl max-w-md"
-            >
-              From Zero to Hero
-            </h2>
+            <h2 class="text-white dark:text-dark font-bold text-3xl lg:text-4xl max-w-md"> From Zero to Hero</h2>
             <p class="font-medium text-base text-secondary lg:text-lg">
               Highly motivated person to solve problems by providing code
               solutions.
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
-            <h3
-              class="font-semibold text-white dark:text-dark text-3xl lg:text-4xl mb-2 pt-10"
-            >
-              Kutipan
-            </h3>
+            <h3 class="font-semibold text-white dark:text-dark text-3xl lg:text-4xl mb-2 pt-10"> Post Scriptum <i class="fa fa-thumb-tack text-2xl lg:text-3xl text-dark dark:text-white rotate-45"></i></h3>
             <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
-              Hal yang benar-benar menarik adalah ketika seseorang mulai menulis
-              code, dan minum secangkir kopi maka akan mendatangkan inspirasi
-              baru.
+              Hal yang benar-benar menarik adalah ketika seseorang mulai menulis code <i class="fa fa-code"></i>,
+              & minum secangkir kopi <i class="fa fa-coffee"></i>. Inspirasi <i class="fa fa-lightbulb"></i> datang dari mana saja.
             </p>
+            <p class="italic font-medium text-base text-secondary mb-6 lg:text-lg"> Quid Pro Quo : something for something</p>
           </div>
         </div>
       </div>
@@ -260,45 +158,75 @@
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-bold text-2xl text-primary mb-2">Portfolio</h4>
-            <h2
-              class="font-semibold text-dark dark:text-white text-3xl md:text-4xl lg:text-5xl mb-4"
-            >
-              Project Terbaru
-            </h2>
+            <h1 class="font-semibold text-dark dark:text-white text-4xl md:text-6xl mb-4">
+              Projects.
+            </h1>
             <p class="font-medium text-lg text-secondary">
               Various of projects I've been working on as a fullstack Developer.
             </p>
           </div>
 
           <ul class="flex flex-wrap gap-x-4 gap-y-6 mb-24">
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">All</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Bootstrap</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Tailwind CSS</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Vue.js</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">PHP</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">CodeIgniter</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Laravel</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Javascript</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Node.js</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">React.js</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Next.js</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Nuxt.js</a></li>
-            <li><a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Python</a></li>
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">All</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Bootstrap</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Tailwind CSS</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Javascript</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Node.js</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">React.js</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Vue.js</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Next.js</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Nuxt.js</a>
+            </li>
+            
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">PHP</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">CodeIgniter</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Laravel</a>
+            </li>
+
+            <li>
+              <a class="py-2 px-4 text-base font-semibold text-black bg-transparent rounded-full border border-slate-300 hover:border-transparent hover:bg-slate-300  hover:text-primary transition duration-200 ease-in-out dark:border-slate-300 dark:hover:bg-slate-300 dark:text-white dark:hover:text-primary dark:hover:font-semibold" href="#">Python</a>
+            </li>
           </ul>
         </div>
 
         <div class="flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-          <div class="w-full px-4 md:w-1/2">
-            <div
-              class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-600"
-            >
-              <img
-                src="img/siakad.png"
-                alt="Siakad PPM Al-Kautsar"
-                class="w-full bg-cover bg-center"
-              />
+          <div class="w-full px-6 md:w-1/2">
+            <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-600">
+              <img src="img/siakad.png" alt="Siakad PPM Al-Kautsar" class="w-full bg-cover bg-center"/>
               <div class="py-8 px-6">
-                <h3 class="font-semibold text-lg lg:text-xl text-dark dark:text-white mt-5 mb-3">
+                <h3 class="font-semibold text-lg md:text-xl text-dark dark:text-white mt-5 mb-3">
                   Siakad PPM Al-Kautsar Malang Raya
                 </h3>
                 <p class="mb-2 text-base font-medium text-secondary dark:text-dark">
@@ -306,42 +234,26 @@
                   Placeat officia beatae quisquam?
                 </p>
                 <div class="mb-6">
-                  <a href="#" class="text-base font-medium text-black hover:text-slate-500 dark:text-white dark:hover:text-slate-500"
-                    >Read more ...</a
-                  >
+                  <a href="#" class="text-base font-medium text-black hover:text-slate-500 dark:text-white dark:hover:text-slate-500">Read more...</a>
                 </div>
                 <div class="w-full">
                   <ul class="flex gap-3 py-3">
-                    <li
-                      class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]"
-                    >
-                      <a href="#" target="_blank"
-                        ><i class="fa-brands fa-github"></i
-                      ></a>
+                    <li class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]">
+                      <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </li>
-                    <li
-                      class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]"
-                    >
-                      <a href="#" target="_blank"
-                        ><i class="fa fa-external-link-alt"></i
-                      ></a>
+                    <li class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]">
+                      <a href="#" target="_blank"><i class="fa fa-external-link-alt"></i></a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="w-full px-4 md:w-1/2">
-            <div
-              class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-600"
-            >
-              <img
-                src="img/kominfo.jpg"
-                alt="Layanan Ngalam 112"
-                class="w-full bg-cover bg-center"
-              />
+          <div class="w-full px-6 md:w-1/2">
+            <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-600">
+              <img src="img/kominfo.jpg" alt="Layanan Ngalam 112" class="w-full bg-cover bg-center"/>
               <div class="py-8 px-6">
-                <h3 class="font-semibold text-lg lg:text-xl text-dark dark:text-white mt-5 mb-3">
+                <h3 class="font-semibold text-lg md:text-xl text-dark dark:text-white mt-5 mb-3">
                   Layanan Panggilan Darurat Ngalam 112 - Kota Malang
                 </h3>
                 <p class="mb-2 text-base font-medium text-secondary dark:text-dark">
@@ -349,25 +261,42 @@
                   Placeat officia beatae quisquam?
                 </p>
                 <div class="mb-6">
-                  <a href="#" class="text-base font-medium text-black hover:text-slate-500 dark:text-white dark:hover:text-slate-500"
-                    >Read more...</a
-                  >
+                  <a href="#" class="text-base font-medium text-black hover:text-slate-500 dark:text-white dark:hover:text-slate-500">Read more...</a>
                 </div>
                 <div class="w-full">
                   <ul class="flex gap-3 py-3">
-                    <li
-                      class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]"
-                    >
-                      <a href="#" target="_blank"
-                        ><i class="fa-brands fa-github"></i
-                      ></a>
+                    <li class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]">
+                      <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </li>
-                    <li
-                      class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]"
-                    >
-                      <a href="#" target="_blank"
-                        ><i class="fa fa-external-link-alt"></i
-                      ></a>
+                    <li class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]">
+                      <a href="#" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-6 md:w-1/2">
+            <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-600">
+              <img src="img/portfolio.png" alt="Portfolio Awinasis" class="w-full bg-cover bg-center"/>
+              <div class="py-8 px-6">
+                <h3 class="font-semibold text-lg md:text-xl text-dark dark:text-white mt-5 mb-3">
+                  Portfolio Awinasis
+                </h3>
+                <p class="mb-2 text-base font-medium text-secondary dark:text-dark">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Placeat officia beatae quisquam?
+                </p>
+                <div class="mb-6">
+                  <a href="#" class="text-base font-medium text-black hover:text-slate-500 dark:text-white dark:hover:text-slate-500">Read more...</a>
+                </div>
+                <div class="w-full">
+                  <ul class="flex gap-3 py-3">
+                    <li class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]">
+                      <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="text-[28px] text-primary transition duration-300 hover:-translate-y-[5px]">
+                      <a href="#" target="_blank"><i class="fa fa-external-link-alt"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -395,25 +324,17 @@
             </div>
 
             <div>
-              <p
-                class="font-medium text-base text-secondary dark:text-black lg:text-lg text-left"
-              >
+              <p class="font-medium text-base text-secondary dark:text-black lg:text-lg text-left">
                 <i class="fa fa-envelope"></i>&nbsp;abdullahwinasis354@gmail.com
               </p>
-              <p
-                class="font-medium text-base text-secondary dark:text-black lg:text-lg text-left"
-              >
+              <p class="font-medium text-base text-secondary dark:text-black lg:text-lg text-left">
                 <i class="fa fa-phone"></i>&nbsp;+6287753464813
               </p>
             </div>
           </div>
 
           <div class="m-auto mb-10 -order-1 lg:order-1">
-            <img
-              src="img/contactMe.png"
-              alt="ContactUs"
-              class="w-80 lg:w-full"
-            />
+            <img src="img/contactMe.png" alt="ContactUs" class="w-80 lg:w-full"/>
           </div>
         </div>
       </div>
@@ -424,24 +345,15 @@
     <footer class="bg-slate-900 w-full pt-2 pb-4">
       <div class="container">
         <div class="mb-4"></div>
-        <p class="text-center text-white">
-          Designed & Built by
-          <a
-            href="#home"
-            class="hover:underline underline-offset-4 text-primary font-semibold"
-            >Abdullah Winasis</a
-          >
-        </p>
+        <p class="text-center text-white"> 
+          Designed & Built by 
+          <a href="#home" class="hover:underline underline-offset-4 text-primary font-semibold">Abdullah Winasis</a></p>
       </div>
     </footer>
     <!-- Footer End -->
 
     <!-- Back to To Start -->
-    <a
-      href="#home"
-      class="fixed hidden justify-center items-center h-12 w-12 bg-primary p-4 rounded-full z-[9999] bottom-4 right-4 hover:animate-pulse"
-      id="to-top"
-    >
+    <a href="#home" class="fixed hidden justify-center items-center h-12 w-12 bg-primary p-4 rounded-full z-[9999] bottom-4 right-4 hover:animate-pulse" id="to-top">
       <span class="block mt-2 h-4 w-4 border-t-4 border-l-4 rotate-45"></span>
     </a>
     <!-- Back to To End -->
